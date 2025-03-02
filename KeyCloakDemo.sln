@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyCloakDemo", "KeyCloakDemo\KeyCloakDemo.csproj", "{48990FAB-194A-46C2-81B6-EFFBE378EC4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48990FAB-194A-46C2-81B6-EFFBE378EC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48990FAB-194A-46C2-81B6-EFFBE378EC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48990FAB-194A-46C2-81B6-EFFBE378EC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48990FAB-194A-46C2-81B6-EFFBE378EC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46B9453D-83CE-422E-A9E7-FA844D8064BB}
+	EndGlobalSection
+EndGlobal
