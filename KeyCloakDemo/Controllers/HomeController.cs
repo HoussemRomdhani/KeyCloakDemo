@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using KeyCloakDemo.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace KeyCloakDemo.Controllers;
 
@@ -17,12 +18,7 @@ public class HomeController : Controller
     {
         return View();
     }
-
-    public IActionResult Protected()
-    {
-        return View();
-    }
-
+   
     public IActionResult Privacy()
     {
         return View();
@@ -33,4 +29,12 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
+    [Authorize]
+    public IActionResult Protected()
+    {
+        return View();
+    }
 }
+
+
