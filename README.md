@@ -4,13 +4,13 @@ This is a simple demo of KeyCloak integration with ASP.NET core.
 
 1. Create a new ASP.NET Core Web Application
 
-    ![alt text](1.png)
+    ![alt text](images/1.png)
 
-    ![alt text](2.png)
+    ![alt text](images/2.png)
 
-    ![alt text](3.png)
+    ![alt text](images/3.png)
 
-    ![Program cs](4.png)
+    ![Program cs](images/4.png)
 
 
 2. Create a protected action
@@ -52,7 +52,7 @@ This is a simple demo of KeyCloak integration with ASP.NET core.
 
     2.2 Create a new view for the Protected action
       
-      ![alt text](5.png)
+      ![alt text](images/5.png)
 
     ```razor 
         @{
@@ -64,13 +64,13 @@ This is a simple demo of KeyCloak integration with ASP.NET core.
 
 3. Launch application
 
-    ![alt text](6_1.png)
-    ![alt text](6.png)
-    ![alt text](7.png)
+    ![alt text](images/6_1.png)
+    ![alt text](images/6.png)
+    ![alt text](images/7.png)
 
 3.1 Navigate to the protected page
 
-   ![alt text](8.png)
+   ![alt text](images/8.png)
 
 4. Configure authentication
 
@@ -196,25 +196,25 @@ docker-compose up
 
  7. Navigate to Keycloak admin console
 
-    ![alt text](10.png)
+    ![alt text](images/10.png)
 
 8. Create a Realm called "demo"
 
-   ![alt text](11.png)
+   ![alt text](images/11.png)
 
 9. Create User and assign a password
 
-   ![alt text](12.png)
+   ![alt text](images/12.png)
   
- . ![alt text](13.png)
+ . ![alt text](images/13.png)
   
  10. Create client called "demo-client"
 
-   ![alt text](14.png)
+   ![alt text](images/14.png)
   
- . ![alt text](15.png)
+ . ![alt text](images/15.png)
 
-  ![alt text](16.png)
+  ![alt text](images/16.png)
 
 
  11. Configure authentication
@@ -310,9 +310,9 @@ namespace KeyCloakDemo
 
  You are authenticated now ! 
 
-  ![alt text](17.png)
+  ![alt text](images/17.png)
  
- ![alt text](18.png)
+ ![alt text](images/18.png)
 
   12. Create a signout action 
 
@@ -364,4 +364,4 @@ public class AuthenticationController : Controller
     </header>
  ```
 
- ![alt text](19.png)
+ ![alt text](images/19.png)
